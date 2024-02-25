@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+        
+        <!--==================== SWIPER CSS ====================-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Responsive Portfolio Website</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+              <a href="#home" class="nav__logo">Ayoub</a>
+              <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                  <li class="nav_item">
+                    <a href="#home" class="nav__link active-link">
+                      <i class="uil uil-estate"></i> Home
+                    </a>
+                  </li>
+                  <li class="nav_item">
+                    <a href="#about" class="nav__link">
+                      <i class="uil uil-user nav__icon"></i> About
+                    </a>
+                  </li>
+                  <li class="nav_item">
+                    <a href="#skills" class="nav__link">
+                      <i class="uil uil-file nav__icon"></i> Skills
+                    </a>
+                  </li>
+                  <li class="nav_item">
+                    <a href="#services" class="nav__link">
+                      <i class="uil uil-briefcase-alt nav__icon"></i> Services
+                    </a>
+                  </li>
+                  <li class="nav_item">
+                    <a href="#portfolio" class="nav__link">
+                      <i class="uil uil-scenery nav__icon"></i> Portfolio
+                    </a>
+                  </li>
+                  <li class="nav_item">
+                    <a href="#contact" class="nav__link">
+                      <i class="uil uil-message nav__icon"></i> Contact
+                    </a>
+                  </li>
+                </ul>
+                <a class="uil uil-times nav__close" id="nav-close"></a>
+              </div>
+              <div class="nav__btns">
+                <!-- Theme change button -->
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+                <div class="nav__toggle" id="nav-toggle">
+                  <i class="uil uil-apps"></i>
+              </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                  <div class="home__content grid">
+                    <div class="home__social">
+                      <a href="https://www.linkedin.com/in/ayoub-benderdouch-98b4302aa/" 
+                        class="home__social-icon"
+                        traget="_blank"
+                        >
+                        <i class="uil uil-linkedin-alt"></i>
+                      </a>
+                      <a 
+                      href="https://github.com/Ayoubbenderdouch" 
+                      class="home__social-icon"
+                      traget="_blank"
+                      >
+                      <i class="uil uil-github-alt"></i>
+                    </a>
+                    <a
+                    href="https://www.facebook.com/ayoubbenderdouc" 
+                    class="home__social-icon"
+                    traget="_blank"
+                    >
+                    <i class="uil uil-facebook-f"></i>
+                  </a>
+                    </div>
+
+                   <div class="home__img">
+                     
+                    <svg
+                    class="home__blob"
+                    viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                      <mask id="mask0" mask-type="alpha">
+                          <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                          130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                          97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                          0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                      </mask>
+                      <g mask="url(#mask0)">
+                          <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                          165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                          129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                          -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                          <image href="img/ayoub.png"
+                          class="home__blob-img"
+                          x="-18"
+                          y="10"
+                          />
+                      </g>
+                  </svg>
+                   </div>
+
+                   <div class="home__data">
+                    <h1 class="home__title">Hi, I am Ayoub</h1>
+                    <h3 class="home__subtitle">Frontend Developer</h3>
+                    <p class="home__description">
+                      Engergetic frontend developer, skilled at writing well-designed code, create responsive websites with a modern look and feel.
+                    </p>
+                    <a href="#contact" class="button button__flex">
+                      Contact Me
+                      <i class="uil uil-message button__icon"></i>
+                    </a>
+                   </div>
+                  </div>
+                  <div class="home__scroll">
+                    <a href="#about" class="home__scroll-button button--flex">
+                      <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                      <span class="home__scroll-name">Scroll down</span>
+                       <i class="uil uil-arrow-down home__scroll-arrow"></i>
+
+                    </a>
+                  </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <h2 class="section__title">About Me</h2>
+                <span class="section__subtitle">My Introduction</span>
+                <div class="about__container container grid">
+                  <img src="img/about.png" alt="" class="about__img">
+                  <div class="about__data">
+                    <p class="about__description">
+                      I am a frontend developer with a passion for creating modern and responsive websites. I am a self-taught developer with a strong desire to learn and grow. I am a hardworking and dedicated individual who is always looking to improve my skills and knowledge. I am a team player who is able to work well with others and I am always willing to help out where needed.                    
+                    </p>
+                    <div class="about__info">
+                      <div>
+                        <span class="about__info-title">1+</span>
+                        <span class="about__info-name">Years <br> experience</span>
+                      </div>
+                      <div>
+                        <span class="about__info-title">20+</span>
+                        <span class="about__info-name">Completed <br> project</span>
+                      </div>
+                      <div>
+                        <span class="about__info-title">02+</span>
+                        <span class="about__info-name">Companies <br> Worked</span>
+                      </div>
+                    </div>
+                    <div class="about__buttons">
+                      <a download="" href="assets/pdf/Alexa-Cv.pdf" class="button button--flex">Download CV <i class="uli uli-download-alt button__icon>"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+            </section>
+
+            <!--==================== SKILLS ====================-->
+            <section class="skills section" id="skills">
+                <h2 class="section__title">Skills</h2>
+                <span class="section__subtitle">My technical level</span>
+
+                <div class="skills__container container grid">
+                  <!--------------SKILLS 1--------------->
+                  <div class="skills__content skills__open">
+                    <div class="skills__header">
+                      <i class="uil uil-brackets-curly skills__icon"></i>
+                      <div>
+                        <h1 class="skills__titles">Frontend developer</h1>
+                        <span class="skills__subtitle">More than 1 years</span>
+                      </div>
+                      <i class="uil uil-angle-down skills__arrow"></i>
+                    </div>
+                    <div class="skills__list grid">
+                      <div class="skills__data">
+                        <div class="skills__titles">
+                          <h3 class="skills__name">HTML</h3>
+                        </div>
+                        <div class="skills__bar"></div>
+                      </div>
+                      <div class="skills__data">
+                        <div class="skills__titles">
+                          <h3 class="skills__name">CSS</h3>
+                        </div>
+                        <div class="skills__bar"></div>
+                      </div>
+                      <div class="skills__data">
+                        <div class="skills__titles">
+                          <h3 class="skills__name">Javascript</h3>
+                        </div>
+                        <div class="skills__bar"></div>
+                      </div>
+                      <div class="skills__data">
+                        <div class="skills__titles">
+                          <h3 class="skills__name">React</h3>
+                        </div>
+                        <div class="skills__bar"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--------------SKILLS 2--------------->
+                  <div class="skills__content skills__close">
+                    <div class="skills__header">
+                      <i class="uil uil-server-network skills__icon"></i>
+                      <div>
+                        <h1 class="skills__titles">Frameworks</h1>
+                        <span class="skills__subtitle">More than 1 years</span>
+                      </div>
+                      <i class="uil uil-angle-down skills__arrow"></i>
+                    </div>
+                    <div class="skills__list grid">
+                      <div class="skills__data">
+                        <div class="skills__titles">
+                          <h3 class="skills__name">Tailwind Css</h3>
+                        </div>
+                        <div class="skills__bar"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </section>
+
+            <!--==================== QUALIFICATION ====================-->
+            <section class="qualification section">
+            <h2 class="section__title">Qualification</h2>
+            <span class="section__subtitle">My personal journey</span>
+
+            <div class="qualification__container container">
+            <div class="qualification__tabs">
+              <div class="qualification__button button--flex qualification__active" data-target="#education">
+                <i class="uil uil-graduation-cap qualification__icon"></i>
+                Education
+              </div>
+              <div class="qualification__button button--flex" data-target="#work">
+                <i class="uil uil-briefcase-alt qualification__icon"></i>
+                Work
+              </div>
+            </div>
+            <div class="qualification__sections">
+            <!---------------- QUALIFICATION CONTENT 1--------------------->
+            <div class="qualification__content qualification__active" data-content id="education">
+            <!---------------- QUALIFICATION 1--------------------->
+            
+            <div class="qualification__data">
+              <div>
+                <h3 class="qualification__data">
+                  Computer And Network Engineering
+                </h3>
+                <span class="qualification__subtitile">
+                  August-Griese-Berufskolleg Löhne Germany 
+                </span>
+                <div class="qualification__calendar">
+                  <i class="uil uil-calendar-alt">2019 - 2022</i>
+                </div>
+              </div>
+
+              <div>
+                <span class="qualification__rounder"></span>
+                <span class="qualification__line"></span>
+              </div>
+            </div>
+
+              <!---------------- QUALIFICATION 2 --------------------->
+
+             <div class="qualification__data">
+              <div></div>
+              <div>
+
+                <span class="qualification__rounder"></span>
+                <span class="qualification__line"></span>
+              </div>
+              <div>
+                <h3 class="qualification__data">
+                  Introduction to Front-End Development
+                  </h3>
+                <span class="qualification__subtitile">
+                  coursera / Meta                    
+                </span>
+                <div class="qualification__calendar">
+                  <i class="uil uil-calendar-alt">2023 - 2024</i>
+
+                </div>
+              </div>
+             </div>
+
+              <!---------------- QUALIFICATION 3 --------------------->
+
+
+              <div>
+                <h3 class="qualification__data">
+                  secondary school graduation 
+                  </h3>
+                <span class="qualification__subtitile">
+                  Geschwister Scholl-Schule, Realschule, Herford                    
+                </span>
+                <div class="qualification__calendar">
+                  <i class="uil uil-calendar-alt">2017 - 2019</i>
+
+                </div>
+              </div>
+
+              <!---------------- QUALIFICATION 4 --------------------->
+
+
+              <div>
+                <h3 class="qualification__data">
+                 General German Course - Intermediate Level C1 
+                </h3>
+                <span class="qualification__subtitile">
+                  Geschwister Scholl-Schule, Realschule, Herford                    
+                </span>
+                <div class="qualification__calendar">
+                  <i class="uil uil-calendar-alt">2017</i>
+
+                </div>
+              </div>
+
+
+
+          </div>  
+          </div>
+
+            <!---------------- QUALIFICATION CONTENT 2 --------------------->
+
+
+            <div class="qualification__content" data-content id="work"></div>
+
+                        <!---------------- QUALIFICATION 1--------------------->
+            
+                        <div class="qualification__data">
+                          <div>
+                            <h3 class="qualification__data">
+                              specialist seller                           
+                             </h3>
+                            <span class="qualification__subtitile">
+                              bäckerei hensel eilshausen                            
+                            </span>
+                            <div class="qualification__calendar">
+                              <i class="uil uil-calendar-alt">2019 - 2021</i>
+                            </div>
+                          </div>
+            
+                        <!---------------- QUALIFICATION 2--------------------->
+
+                          <div>
+                            <h3 class="qualification__data">
+                             Web Developer                              
+                             </h3>
+                            <span class="qualification__subtitile">
+                            Freelancer 
+                            </span>
+                            <div class="qualification__calendar">
+                              <i class="uil uil-calendar-alt">Since 2022</i>
+                            </div>
+                          </div>
+
+
+
+                           <!---------------- QUALIFICATION 3--------------------->
+
+                           <div>
+                            <h3 class="qualification__data">
+                             Frontend Web Developer                          
+                             </h3>
+                            <span class="qualification__subtitile">
+                            Youtube
+                            </span>
+                            <div class="qualification__calendar">
+                              <i class="uil uil-calendar-alt">Since 2024</i>
+                            </div>
+                          </div>
+
+
+                          <div>
+                            <span class="qualification__rounder"></span>
+                          </div>
+                        </div>
+
+            </div>
+            </div>
+            </section>
+
+            <!--==================== SERVICES ====================-->
+            <section class="services section" id="services">
+                
+            </section>
+
+            <!--==================== PORTFOLIO ====================-->
+            <section class="portfolio section" id="portfolio">
+                
+            </section>
+
+            <!--==================== PROJECT IN MIND ====================-->
+            <section class="project section">
+
+            </section>
+
+            <!--==================== TESTIMONIAL ====================-->
+            <section class="testimonial section">
+                
+            </section>
+
+            <!--==================== CONTACT ME ====================-->
+            <section class="contact section" id="contact">
+
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer">
+         
+        </footer>
+        
+        <!--==================== SCROLL TOP ====================-->
+        
+
+        <!--==================== SWIPER JS ====================-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--==================== MAIN JS ====================-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
